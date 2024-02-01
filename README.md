@@ -4,9 +4,10 @@ Expand the book rental library application to include functionality for users to
 
 ## Installation
 
-- Copy `.env.example` to `.env`
+- Copy `.env.example` to `.env`: `copy .env.example .env`
 - Run `composer install`
 - Run `php artisan key:generate --ansi`
+- Update database details in `.env` 
 - Run `php artisan migrate`
 - Run `php artisan db:seed --class=GenresTableSeeder`
   
